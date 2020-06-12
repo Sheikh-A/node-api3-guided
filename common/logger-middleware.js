@@ -9,4 +9,4 @@ module.exports = function logger(req, res, next) {
     console.log(`Req.method: ${method} to Req.originalUrl: ${endpoint}`);
   
     next(); //remember to add so you can move on, moves request to the next middleware
-  }
+  };
